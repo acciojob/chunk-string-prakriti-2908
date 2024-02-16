@@ -1,6 +1,9 @@
 function stringChop(str, size) {
   // your code here
 	let arr = [];
+	if (str === null) {
+    return [];
+  }
 	if(str.length==0 || str===null){
 		return arr;
 	}
